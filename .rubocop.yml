@@ -1,0 +1,5 @@
+Style/FileName:
+  Enabled: false
+
+LineLength:
+  Max: 120
