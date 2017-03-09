@@ -10,7 +10,7 @@ Sample Ruby Automated Regression/Integration Tests
 2. Install XCode command line tools: $xcode-select --install
 3. Install Brew: $ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 4. Install git: $brew install git
-5. Clone the Muramasa github project: $git clone https://github.com/octanner/kanabō.git
+5. Clone the Muramasa github project: $git clone https://github.com/berrynorth/muramasane 
 6. run `bin/setup`
 7. Update (profile) file with the following:
 <br>export PATH="$HOME/.rbenv/bin:$PATH"
