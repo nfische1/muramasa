@@ -1,0 +1,117 @@
+Module AutomationFramework #Calling AutomationFrameworkModule
+
+    Class Assignments< AutomationFramework::Utilities::GoogleLandingPage
+    
+    =begin
+    Assuming this means class assignments will be inheriting AutomationFramework,Utilities, and GoogleLandingPage methods enabling me to call them
+    Utilities includes the selenium WebDriver
+    AutomationFramework includes landing pages for google and OC Tanner
+    First assignment
+    =end
+    
+    
+def oct_landing_page
+      @oct_landing_page ||= OCTLandingPage.new
+    end #assuming this works like a java bracket to end the method
+
+
+#Selects Why Appreciate Menu
+
+def open_menu #this origional function is available in a header template, but I felt I needed to modify it to select menus
+    page.find[:css,"a[id='/why-appreciate.html']"].click #Used firebug to discern id of menu
+
+            def verify_page_content #called from Utilities
+
+                def wait #called from utilities
+end
+
+#Selects Products menu
+
+def open_menu
+    page.find[:css,"a[id='/products.html']"].click 
+
+            def verify_page_content
+
+                def wait 
+end
+
+
+# Selects Why Choose Us Menu
+def open_menu
+    page.find[:css,"a[id='/why-choose-us.html']"].click
+
+        def verify_page_content
+
+
+                def wait (element,time)
+                    wait = selenium ::WebDriver::wait.new:timeout=> time
+                            wait.until{find(element)}
+end
+
+
+#Selects Insights menu
+
+def open_menu
+    page.find[:css,"a[id='/insights.html']"].click
+
+    def verify_page_content
+    
+            def wait 
+end
+
+#Selects Institute Menu
+
+def open_menu
+    page.find[:css,"a[id='/institute.html']"].click
+
+    def verify_page_content
+
+                def wait 
+end
+
+ #Selects Clients menu
+ def open_menu
+            page.find[:css,"a[id='/clients.html']"].click
+
+                def verify_page_content
+
+                        def wait 
+                        end
+                        
+  def close_current_window #called from Utilities to close O.C. Tanner site
+  def google_landing_page  #called from AutomationFramework to open google for a search
+  
+  =begin 
+  This could be another way to open up google for the search. I found that spec helper did have 
+  many lines of useful information that I would love to learn more about
+  
+  require 'spec_helper'
+app = AutomationFramework::Application.new
+test_name = 'Launch Google'
+
+feature test_name.to_s, sauce: app.sauce do
+  scenario test_name.to_s, type: 'acceptance', broken: false,
+                           dev: true, qa: true, prod: true do
+
+    app.launch_app(app.url('GOOGLE'))
+    app.close_all_windows
+    
+=end
+
+
+  def enter_search_text  #called from GoogleLandingPage
+  
+  
+  
+
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+
+#altough this assignment is not fully completed, I feel confident, with more time, I could learn the ruby process of automation testing.
+#Thank You for your time
+
